@@ -52,5 +52,3 @@ if len(l1) > 4:
     print("That list is long.")
 if len(l1) < 5:
     print("The list is short.")
-    
-
