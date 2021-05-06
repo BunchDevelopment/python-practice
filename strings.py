@@ -73,10 +73,10 @@ def is_subset(str1, str2):
             end = input('Where do you want me to end it?\n')
             slice_it_up(str2, start, end)
 
-# first_string = input('What string do you think is in my hidden string?\n')
-# my_string = 'May the 4th be with you my dude.'
+first_string = input('What string do you think is in my hidden string?\n')
+my_string = 'May the 4th be with you my dude.'
 
-# is_subset(first_string, my_string)
+is_subset(first_string, my_string)
 
 #It will return true or false.
 #In the main body ask for input.
