@@ -1,23 +1,30 @@
 # Data Analysis Workflow: Summarize, in your own words, our 4-step process of data analysis. 
 # - The 4 step process is gathering data, then getting that data into a uniform format, and as clean as possible, determining if you need more data to gather a conclusion, then getting a conclusion to gather a result. 
+
 # What are some examples of roadblocks you might encounter? 
 # - you might have issues finding data, data that is extremely dirty, issues finding patterns or missing key data
+
 # How do you determine when you are finished analyzing the data?
 # - did you gather a solid result from the data you interpreted? 
+
 # What does “iterative” mean and how might it apply to your analysis process?
 #  - its a flow that repeats until a condition is met. So you start from the beginning, and move step by step until you are satisified with the results
 
 # Quantitative vs. Qualitative: Give 5 examples of quantitative qualities of trees, and 5 examples of qualitative qualities of trees. 
 # - Quantitative: Number of trees, height of trees, average number of rings for trees, what time of the year each trees leaves start to turn yellow, time of year when trees start to bloom
 # - Qualitative: the trees leaves are green, the trunk is brown, this tree came from spain, idk. 
+
 # Which is better for data analysis? - Quantitative
+
 # Name 3 studies on trees that could be possible. 
 # - What trees bloom the earliest, trees average height based on type of tree, types of trees that turn yellow and when and possibly where.
+
 # Which data is considered relevant? Which data is considered irrelevant? (Note: It definitely depends on the study you choose!)
 # - Usually Quantitative data will be relevent. 
 
 # Statistics and Analytics: There are several categories of statistics and analytics. Which type will we be using in this class? 
 # -Descriptive Statistics ? 
+
 # Name and describe 3 statistics calculations you are familiar with (If you do not know any, feel free to Google! We will cover them all in class.). 
 # - the easy ones. Mean, median and Mode 
 
@@ -28,14 +35,14 @@
 # How many dimensions do the following ndarrays have? 
 # - 1,2,3,2
 # Shape? 
-# -(9,)
-# -(3, 3)
-# -(3, 2, 2)
-# -(3, 2)
+# - (9,)
+# - (3, 3)
+# - (3, 2, 2)
+# - (3, 2)
 # Size? 
-# 9, 9, 12, 6
+# - 9, 9, 12, 6
 # Dtype?
-# -int64, int64, int64, object
+# - int64, int64, int64, object
 import numpy as np
 
 things = [3, 4, 6, 4, 7, 1, 5, 7, 1]
