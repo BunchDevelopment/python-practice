@@ -21,8 +21,8 @@ list1 = range(size)
 list2 = range(size)
  
 # declaring arrays
-array1 = numpy.arange(size)  
-array2 = numpy.arange(size)
+array1 = np.arange(size)  
+array2 = np.arange(size)
  
 # list
 initialTime = time.time()
@@ -33,7 +33,7 @@ print("Time taken by Lists :",
       (time.time() - initialTime),
       "seconds")
  
-# NumPy array
+# np array
 initialTime = time.time()
 resultantArray = array1 * array2
  
